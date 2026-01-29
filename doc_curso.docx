@@ -1,2 +1,15 @@
 print é uma função
+
 cls: comando para limpar o terminal
+
+string: texto -> está separado por aspas duplas
+
+Para executar um script python, eu preciso invocar o python e passar o script que eu quero no terminal:
+    python ola_mundo.py
+
+# indica comentários (eles são ignorados. Não fazem parte da execução, mas orientam, explicam)
+
+#%% : abre o modo iterativo do python e executa tudo o que estiver embaixo desse #%%
+ctrl + enter : para executar o que está em uma célula
+
+variáveis: post-its
