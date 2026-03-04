@@ -13,3 +13,9 @@ Para executar um script python, eu preciso invocar o python e passar o script qu
 ctrl + enter : para executar o que está em uma célula
 
 variáveis: post-its
+
+tipos numéricos: inteiros, float, booleanos, 
+    Booleanos podem ser o resultado de uma comparação lógica ou de uma operação.
+    Ex.: comparar a grandeza, a igualdade de duas coisas, ...
+
+Cada tipo tem as suas próprias propriedades. 
