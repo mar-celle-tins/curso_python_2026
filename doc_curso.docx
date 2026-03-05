@@ -5,7 +5,7 @@ cls: comando para limpar o terminal
 string: texto -> está separado por aspas duplas
 
 Para executar um script python, eu preciso invocar o python e passar o script que eu quero no terminal:
-    python ola_mundo.py
+    python + nome da pasta/nome do arquivo
 
 # indica comentários (eles são ignorados. Não fazem parte da execução, mas orientam, explicam)
 
@@ -14,8 +14,26 @@ ctrl + enter : para executar o que está em uma célula
 
 variáveis: post-its
 
-tipos numéricos: inteiros, float, booleanos, 
+tipos numéricos: inteiros (int não tem casa decimal), float, booleanos, 
     Booleanos podem ser o resultado de uma comparação lógica ou de uma operação.
     Ex.: comparar a grandeza, a igualdade de duas coisas, ...
 
 Cada tipo tem as suas próprias propriedades. 
+
+Laços de repetição
+
+DICA: selecionar o que eu quero, segurar ctrl + d = seleciona várias linhas ao mesmo tempo!!
+
+WHILE: enquanto a condição for verdadeira (true), vou continuar executando o código/instrução.
+Ele só sairá do laço quando a condição deixar de ser verdadeira ou quando houver um break.
+Como sair do laço para que deixe de ser um loop infinto?
+    1) com a condição do laço;
+    2) break (só pode existir dentro de laços de repetição. Quando for acionado, ele sairá do 
+    laço de repetição mais próximo a ele).
+
+FOR: utilizado, normalmente, para percorrer sequências/estruturas iteráveis. 
+Ele percorre todos os elementos de um objeto. 
+
+Range = estrutura de dados no python, que cria uma sequência de números. 
+O range não inclui o último valor do intervalo, então eu preciso acrescentar um número a mais
+para pegar o último número que eu quero. 
