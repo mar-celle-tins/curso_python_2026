@@ -50,3 +50,16 @@ numero = int(numero)
 dobro = numero * 2
 print("O dobro de", numero,"é", dobro, ".")
 
+#%%
+# Faça um programa que receba 4 alturas usando um laço 
+# de repetição e realize a soma dessas alturas.
+
+soma = 0
+entrada = 0
+
+while entrada <= 3:
+    altura = input("Qual é a sua altura em metros?")
+    soma += float(altura)
+    entrada += 1
+
+print("O total de alturas é:", soma)
